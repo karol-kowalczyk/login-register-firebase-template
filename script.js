@@ -6,7 +6,7 @@ function changeSignInForm() {
     signUpForm.style.display = "block";
 }
 
-function returnchangeSignInForm() {
+function returnChangeSignInForm() {
     signInForm.style.display = "block";
     signUpForm.style.display = "none";
 }
