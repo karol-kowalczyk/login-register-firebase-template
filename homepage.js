@@ -3,10 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 const firebaseConfig = {
-  //YOUR COPIED FIREBASE PART SHOULD BE HERE
-  //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
-};
-
+    apiKey: "AIzaSyBPVSP-K3JNHBasYSLdQWAZG__c2rkF28g",
+    authDomain: "login-register-form-templ.firebaseapp.com",
+    projectId: "login-register-form-templ",
+    storageBucket: "login-register-form-templ.appspot.com",
+    messagingSenderId: "847240665452",
+    appId: "1:847240665452:web:c68bd83e0eb6c06c76fb49",
+  };
+  
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
